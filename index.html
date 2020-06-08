@@ -1,5 +1,215 @@
-<html>
-	<head></head>
-	<body>欢迎您！</body>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Crop Pic A PhotoGallery Category Bootstrap Responsive Template | Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">   
+<link href="css/font-awesome.css" rel="stylesheet"> <!-- font-awesome icons --> 
+<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all" />
 
+<!-- //Custom Theme files --> 
+<!-- js -->
+<script src="js/jquery-2.2.3.min.js"></script>  
+<!-- //js -->
+<!-- web-fonts -->   
+
+<!-- //web-fonts -->
+</head>
+<body> 
+	 <!-- banner -->
+   	<!-- Header -->
+		<div class="logo-w3layouts">
+			<h1><a href="index.html"><i class="fa fa-pie-chart" aria-hidden="true"></i>King</a></h1>
+		</div>
+
+		<!-- banner-slider -->
+			<div class="w3l_banner_info">
+				<div class="slider">
+					<div class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="slider-img">
+											<img src="images/b1.jpg" class="img-responsive" alt="impetus">
+										</div>
+										<div class="slider_banner_info">
+											
+										</div>
+
+									</li>
+									<li>
+										<div class="slider-img">
+											<img src="images/b2.jpg" class="img-responsive" alt="impetus">
+										</div>
+										<div class="slider_banner_info">
+											
+											
+										</div>
+
+									</li>
+									<li>
+										<div class="slider-img">
+											<img src="images/b3.jpg" class="img-responsive" alt="impetus">
+										</div>
+										<div class="slider_banner_info">
+											
+										</div>
+
+									</li>
+
+								</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		<!-- //banner-slider -->
+		
+	<!-- //Header -->
+
+	<!--//banner-->
+	<!--about -->
+	<div class="about" id="about">
+		<div class="container">
+		<div class="wthree_head_all">
+				<h3>图集</h3>
+			</div>
+			<div class="w3-about-grids1">
+				<div class="col-md-6 w3-about-left">
+					<div class="w3-about-left-img">
+					<img src="images/a1.jpg" alt="about1">
+				</div>
+				<div class="w3-about-left-text">
+				<h3>天鹅湖</h3>
+				<p>海珠湿地公园</p>
+				</div>
+				</div>
+				<div class="col-md-6 w3-about-right">
+				<div class="w3-about-right-img">
+				<img src="images/a2.jpg" alt="about2">
+				</div>
+				<div class="w3-about-right-text">
+				<h3>田园随想</h3>
+				<p>老家</p>
+				</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="w3-about-grids2">
+				<div class="col-md-6 w3-about-left1">
+				<div class="w3-about-left1-img">
+				<img src="images/a3.jpg" alt="about3">
+				</div>
+				<div class="w3-about-left-text">
+				<h3>旅行家</h3>
+				<p>七星岩</p>
+				</div>
+				</div>
+				<div class="col-md-6 w3-about-right1">
+				<div class="w3-about-right1-img">
+				<img src="images/a4.jpg" alt="about4">
+				</div>
+				<div class="w3-about-right1-text">
+				<h3>梦想的远方</h3>
+				<p>大理洱海</p>
+				</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	
+	<!--//about-->
+
+  
+<!-- footer -->
+	<div class="footer_w3ls">
+		<div class="container">
+					<div class="footer_bottom1">
+						<p>© 2020 King pic . All rights reserved</p>
+					</div>
+		</div>
+	</div>
+	<!--banner Slider starts Here-->
+						<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								  // Slideshow 4
+								  $("#slider3").responsiveSlides({
+									auto: true,
+									pager:true,
+									nav:false,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									  $('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+									  $('.events').append("<li>after event fired.</li>");
+									}
+								  });
+							
+								});
+							 </script>
+
+							<!--banner Slider starts Here-->
+								<!-- Owl-Carousel-JavaScript -->
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function () {
+			$("#owl-demo").owlCarousel({
+				items: 2,
+				lazyLoad: true,
+				autoPlay: false,
+				pagination: true,
+			});
+		});
+	</script>
+	<!-- //Owl-Carousel-JavaScript -->
+
+	<script src="js/SmoothScroll.min.js"></script> 
+	<!-- start-smooth-scrolling --> 
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+			
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+	<!-- //end-smooth-scrolling -->	 
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->   
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
 </html>
